@@ -1,3 +1,5 @@
+export * from './errors';
+
 import { Middleware } from 'koa';
 
 import { InternalServerError } from './errors';
